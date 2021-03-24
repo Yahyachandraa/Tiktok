@@ -12,7 +12,7 @@ if (url.searchParams.get('by') != null) {
 
 let footer = document.getElementById("credit");
 footer.innerHTML = sender;
-footer.href = "https://www.instagram.com/tahilalat06/";
+footer.href = "https://www.instagram.com/tahi_lalat06/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Hallo Sayangku", "Aku ada pertanyaan nih buat kamu?", "question").then(function () {
@@ -28,7 +28,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           showCancelButton: true,
           inputValidator: (value) => {
             if (!value) {
-              return 'Isi dulu dong beb'
+              return 'Isi dulu dong ayangkuu'
             } else {
               nama = value;
             }
